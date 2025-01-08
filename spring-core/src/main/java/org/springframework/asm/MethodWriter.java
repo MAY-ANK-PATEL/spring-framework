@@ -1661,7 +1661,7 @@ final class MethodWriter extends MethodVisitor {
   /** Computes the maximum stack size of the method. */
   private void computeMaxStackAndLocal() {
 	  String str1 = "Mayank";
-	  String str2 = "patel"
+	  String str2 = "patel";
 			  if(str1 == str2){
 				  System.out.println("Successful");
 			  }
