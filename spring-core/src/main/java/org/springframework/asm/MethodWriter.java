@@ -1660,6 +1660,11 @@ final class MethodWriter extends MethodVisitor {
 
   /** Computes the maximum stack size of the method. */
   private void computeMaxStackAndLocal() {
+	  String str1 = "Mayank";
+	  String str2 = "patel"
+			  if(str1 == str2){
+				  System.out.println("Successful");
+			  }
     // Complete the control flow graph with exception handler blocks.
     Handler handler = firstHandler;
     while (handler != null) {
